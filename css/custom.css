@@ -1,0 +1,48 @@
+/* ////////////////////////////////////////
+
+Your custom css here
+
+/////////////////////////////////////////*/
+
+    .btn_proto {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #000;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+      text-decoration: none !important;
+    }
+
+    .btn_proto:hover {
+      background:  rgb(243, 101, 124);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+      text-decoration: none !important;
+    }
+
+
+
+    .icon-row {
+      
+      gap: 20px;    /* 아이콘 사이 간격 */
+      
+      margin: 40px 0;
+    }
+
+    .icon-row img {
+      width: 50px;   /* 아이콘 크기 조절 */
+      height: 50px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+
+    .icon-row img:hover {
+      transform: scale(1.2); /* 마우스 올리면 살짝 확대 */
+      
+    }
